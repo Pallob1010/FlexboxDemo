@@ -1,0 +1,155 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman; 
+}
+
+.row1{
+    display: flex;
+    margin: 1% 1%;
+    padding: 20px;
+
+    
+}
+
+.col1{
+    padding-right:20px;
+    padding-left:20px;
+    flex: 3;
+    order: 2;
+    text-align: justify;
+    background:aqua;
+}
+.col2{
+    flex: 1;
+    order: 1;
+    text-align: justify;
+    background: grey;
+    padding: 20px;
+
+}
+
+.col3{
+    padding: 20px;
+    order: 3;;
+    flex: 1;
+    text-align: justify;
+    background:hotpink;
+}
+
+.row2{
+  
+    margin: 1% 1%;
+    padding: 20px;
+   
+    
+}
+
+
+.subrow{
+    box-sizing: border-box;
+    text-align: justify;
+    padding: 20px;
+    flex-basis: 30%;
+    margin-top: 10px;
+    border-radius: 5px;
+
+
+}
+.subrow:nth-child(1){ background-color: lightblue;}
+.subrow:nth-child(2){ background-color: lightseagreen;}
+.subrow:nth-child(3){ background-color: lightsalmon;}
+
+@media(min-width:900px){
+
+        .row2{
+            display: flex;
+            justify-content: space-between;
+        }
+    
+
+
+}
+
+.row3{
+    display: flex;
+    margin: 1% 1%;
+    padding: 20px;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+
+
+}
+
+.subrow1{
+width: 150px;
+height: 100px;
+padding-top: 2%;
+margin-top: 2%;
+margin-bottom: 2%;
+background-color: aqua;
+text-align: center;
+font-size: 3rem;
+border-radius: 5px;
+
+}
+
+.row4{
+    display: flex;
+    margin: 1% 1%;
+    padding: 20px;
+   
+
+}
+
+.banner{
+    background: turquoise;
+    padding: 20px;
+font-size: 4rem;
+text-shadow: 1px 2px red;
+margin: auto;
+
+
+}
+
+.row5{
+    display: flex;
+    margin: 1% 1%;
+    padding: 20px;
+    justify-content: space-between;
+
+  
+
+}
+
+.parents1{
+flex: 1;
+padding: 20px;
+display: flex;
+margin: 1%;
+background-color: aquamarine;
+
+}
+
+.parents2{
+    margin: 1%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  
+    }
+.child1{
+   flex: 1;
+   margin: 1%;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.child2{
+    flex: 1;
+    margin: 1%;
+    text-align: center;
+    background-color: cadetblue;
+}
